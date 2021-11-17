@@ -1,5 +1,5 @@
 //import using reqird
-const Shape-require("./shape")
+const Shape=require("./shape")
 
 
 //declare class
@@ -12,4 +12,4 @@ class Circle extends Shape{
     }
 }
 //export class using module.exports
-module.exports-circle;
+module.exports-Circle;
