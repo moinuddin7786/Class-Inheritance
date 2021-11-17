@@ -11,4 +11,5 @@ class Circle extends Shape{
         console.log('Area');
     }
 }
-
+//export class using module.exports
+module.exports-circle;
