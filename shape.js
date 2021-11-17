@@ -12,4 +12,4 @@ class Shape{
 }
 
 //export class using module.exposrt 
-module.exports = Shape;
+module.exports=Shape;
