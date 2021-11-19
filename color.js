@@ -1,15 +1,11 @@
 //import using reqird
-const Shape=require("./shape")
+var x = require('./shape.js')
 
-
-//declare class
-class Circle extends Shape{
-    super(radius){
-        this.radius=radius;
+module.exports = class circle extends x{
+    constructor (){
+        super();
     }
-    calculateArea(){
-        console.log('Area');
+    calculatearea(){
+        console.log("Calculate area from circle");
     }
 }
-//export class using module.exports
-module.exports=Circle;
